@@ -50,7 +50,7 @@ Let's write a pseudo-code of what the program should do:
         every time, plot the fitted data, and describe 'a' and 'PercErr'.
       Show the plot.
 
-![image](https://github.com/WitoldSurowka/PYfunc_analysis/assets/115739312/980f3cad-bbd1-474d-9a51-253ac2de9be9)
+![image](https://github.com/WitoldSurowka/PYfunc_analysis/assets/115739312/af65bbe1-7583-4d32-8843-2cc8458c2186)
 
 Thanks to this script, you can make an informed decision in choosing the model that best fits the real data. 
 As an alternative error estimator, the Root Mean Square Error (RMSE) calculation can also be implemented.
