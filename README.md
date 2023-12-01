@@ -5,11 +5,11 @@ Assume you have a series of 3D functions f(x,y), that mimic the behavior of a sy
 The collected data from the real system is in the form of a 2D function (for a certain y=3).
 ![image](https://github.com/WitoldSurowka/PYfunc_analysis/assets/115739312/283862ea-0c4c-41c4-8f5b-b84083b26662)
 
-The data collected on the real system is only 2D function (for a certain y=3). 
+The data collected on the real system is only 2D red color function (for a certain y=3). 
 ![image](https://github.com/WitoldSurowka/PYfunc_analysis/assets/115739312/bdeac23a-89d2-4ed7-ba0a-79591e8bd490)
 
-The goal is to take the 3D function slice (2D blue function) and scale that function with 'a', to gain best fit to the real data (2D red function), so
-a*(2D blue function) gives lowest descripancy with real-data based 2D red function.
+The goal is to take the 3D function slice (2D blue function) and scale that function, multiplying with 'a', to gain best fit to the real data (2D red function), so
+a*(2D blue function) gives lowest descripancy with real-data based 2D red function. 
 
 It's achievable with curve fitting tool from scipy.optimize package. 
 
