@@ -27,6 +27,7 @@ All the above values are stored within the file 'poly_coeffs.txt'.
 
 
 Let's write a pseudo-code of what the program should do:
+
       Load the coefficient data matrix
       Define real data
       
