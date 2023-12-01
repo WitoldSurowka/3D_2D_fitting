@@ -53,7 +53,8 @@ Let's write a pseudo-code of what the program should do:
 Thanks to this script, you can make an informed decision in choosing the model that best fits the real data. 
 As an alternative error estimator, the Root Mean Square Error (RMSE) calculation can also be implemented.
 
-![image](https://github.com/WitoldSurowka/PYfunc_analysis/assets/115739312/a9a3bce6-2b16-4edd-ad22-1dac10fa2fcd)
+![image](https://github.com/WitoldSurowka/PYfunc_analysis/assets/115739312/2d4f0e98-e90e-42dd-a881-051bfea370be)
+
 
   
   
