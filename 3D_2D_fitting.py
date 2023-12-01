@@ -14,6 +14,11 @@ y = 3
 
 #Function1 transform 3D model to 2D model for certain y=3. Scale it with 'a' to fit real data best and return the fitted parameters and error.
 def fitting (An,RV,y):
+    '''
+    An-vector of coefficients,
+    RV-RealValues,
+    y=3 coordinate of a 3D function slice where real data were collected
+    '''
     # Load the coefficient vector
     p00, p10, p01, p20, p11, p02, p30, p21, p12, p03, p31, p22, p13, p04, p32, p23, p14, p05=An
 
@@ -48,7 +53,8 @@ def fitting (An,RV,y):
         )
         #assign values
         param_values = dict(
-         zip([p00, p10, p01, p20, p11, p02, p30, p21, p12, p03, p31, p22, p13, p04, p32, p23, p14, p05], An))
+         zip([p00, p10, p01, p20, p11, p02, p30, p21, p12, p03, p31, p22, p13, p04, p32, p23, p14, p05], An)
+        )
         param_values[a] = a_fit[0]
         param_values[y] = 3
         #return expression with parameters substitued with known values
