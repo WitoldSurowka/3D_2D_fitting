@@ -47,7 +47,7 @@ Let's write a pseudo-code of what the program should do:
       Plot real-data function.
       create loop: 
         for all the models(using all the coefficient vectors), as input to the 'Function1'.
-        every time, plot the fitted data, and describe 'a' and 'PercErr'.
+        every time, plot the fitted data, and describe 'a' as well as 'PercErr'.
       Show the plot.
 
 ![image](https://github.com/WitoldSurowka/PYfunc_analysis/assets/115739312/af65bbe1-7583-4d32-8843-2cc8458c2186)
