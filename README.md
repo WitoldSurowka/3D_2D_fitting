@@ -1,5 +1,6 @@
 # 3D_2D_fitting
-The following elaboration is a part of an authentic STEM project grounded in real-world application.
+The following elaboration is a part of an authentic STEM project grounded in real-world application. 
+It utilizes linear algebra and mathematical analysis to modify derived models to better mimic the data collected from the real system.
 
 The purpose is to fit a series of 3D functions to match best to real-data 2D function 
 
