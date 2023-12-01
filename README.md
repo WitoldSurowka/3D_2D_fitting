@@ -1,5 +1,5 @@
 # 3D-2D_fitting
-Interpolate a series of 3D function to fit best to one 2D function 
+Fit a series of 3D functions to match best to real-data 2D function 
 
 Assume you have a series of 3D functions f(x,y), that mimic the behavior of a system, and you are unsure which one is the best. 
 The collected data from the real system is in the form of a 2D function (for a certain y=3).
