@@ -1,17 +1,19 @@
 # 3D-2D_fitting
-Fit a series of 3D functions to match best to real-data 2D function 
+The following elaboration is a part of an authentic STEM project grounded in real-world application.
+
+The purpose is to fit a series of 3D functions to match best to real-data 2D function 
 
 Assume you have a series of 3D functions f(x,y), that mimic the behavior of a system, and you are unsure which one is the best. 
 The collected data from the real system is in the form of a 2D function (for a certain y=3).
 ![image](https://github.com/WitoldSurowka/PYfunc_analysis/assets/115739312/283862ea-0c4c-41c4-8f5b-b84083b26662)
 
-The data collected on the real system is only 2D red color function (for a certain y=3). 
+The data collected on the real system is in the form of a red color 2D function (for a certain y=3). 
 ![image](https://github.com/WitoldSurowka/PYfunc_analysis/assets/115739312/bdeac23a-89d2-4ed7-ba0a-79591e8bd490)
 
 The goal is to take the 3D function slice (2D blue function) and scale that function, multiplying with 'a', to gain best fit to the real data (2D red function), so
-a*(2D blue function) gives lowest descripancy with real-data based 2D red function. 
+a*(2D blue function) gives lowest descripancy with red color real-data function. 
 
-It's achievable with curve fitting tool from scipy.optimize package. 
+It's achievable with curve fitting function from scipy.optimize package. 
 
 Here's what to do:
 The 3D function is given by an equation:
