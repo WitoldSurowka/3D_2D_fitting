@@ -22,7 +22,7 @@ The 3D function is given by an equation:
     + p12*x*y^2 + p03*y^3 + p31*x^3*y + p22*x^2*y^2 + p13*x*y^3 
     + p04*y^4 + p32*x^3*y^2 + p23*x^2*y^3 + p14*x*y^4 +p05*y^5
   
-There are 6 models that differ by sets of polynominal coefficients:
+There are 6 models that differ by sets of polynomial coefficients:
 
         p00 = 0.9978; p10 = 9.456e-05; p01 = 0.0007055; p20 = 6.593e-06; p11 = -0.0002668; ...
         p00 = 0.9978; p10 = 9.522e-05; p01 = 0.0004516; p20 = 6.729e-06; p11 = -0.000257;...
