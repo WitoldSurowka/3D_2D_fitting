@@ -35,10 +35,12 @@ Let's write a pseudo-code of what the program should do:
       
         Function1:
         Load the coefficient vector 
+        
           Function2:
           a*(3D function) 
           return this function
-        using scipy.optimize perform fitting of 2D function (that is actually a slice of 3D function) to the real-data 2D function (return 'a')
+          
+        using scipy.optimize perform fitting of 2D function (that is actually a slice of 3D function, multiplied by scalar 'a') to the real-data 2D function (return 'a')
         calculate 'PercErr' - maximal percentage error between fitted function and real-data function
         return 'a', function, 'PercErr'
       
