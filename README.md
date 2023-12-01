@@ -1,4 +1,4 @@
-# 3D-2D_fitting
+# 3D_2D_fitting
 The following elaboration is a part of an authentic STEM project grounded in real-world application.
 
 The purpose is to fit a series of 3D functions to match best to real-data 2D function 
