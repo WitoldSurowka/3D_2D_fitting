@@ -1,5 +1,6 @@
 # 3D_2D_fitting
-The following elaboration is a part of an authentic STEM project grounded in real-world application.
+The following elaboration is a part of an authentic STEM project grounded in real-world application. 
+It utilizes linear algebra and mathematical analysis to modify derived models to better mimic the data collected from the real system.
 
 The purpose is to fit a series of 3D functions to match best to real-data 2D function 
 
@@ -43,14 +44,19 @@ Let's write a pseudo-code of what the program should do:
           return this function
           
         using scipy.optimize perform fitting of 2D function (that is actually a slice of 3D function, multiplied by scalar 'a') to the real-data 2D function (return 'a')
+
+        Function 3:
+        create function that rteturns symbolic formula with current coefficients and current a_fit
+        
         calculate 'PercErr' - maximal percentage error between fitted function and real-data function
-        return 'a', function, 'PercErr'
+        return 'a', function, symbolic function, 'PercErr'
       
       Plot real-data function.
       create loop: 
         for all the models(using all the coefficient vectors), as input to the 'Function1'.
         every time, plot the fitted data, and describe 'a' as well as 'PercErr'.
       Show the plot.
+      printout the best fit
 
 ![image](https://github.com/WitoldSurowka/PYfunc_analysis/assets/115739312/af65bbe1-7583-4d32-8843-2cc8458c2186)
 
